@@ -1,0 +1,8 @@
+Thumbs.db
+.DS_Store
+*.bak
+*~
+*.swp
+node_modules
+tsconfig.tsbuildinfo
+

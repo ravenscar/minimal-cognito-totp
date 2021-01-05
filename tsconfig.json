@@ -1,0 +1,19 @@
+{
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"],
+  "compilerOptions": {
+    "strict": true,
+    "module": "CommonJS",
+    "declaration": true,
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "composite": true,
+    "declarationMap": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "lib": ["ES2017"],
+    "target": "ES2017",
+    "types": ["node", "jest"],
+    "noErrorTruncation": true
+  }
+}
