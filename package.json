@@ -1,6 +1,6 @@
 {
   "name": "minimal-cognito-totp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimal implementation to turn cognito b32 TOTP seeds into 6 digit codes, for unit testing with TOTP SMS",
   "main": "dist/index.js",
   "scripts": {
